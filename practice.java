@@ -1,5 +1,5 @@
-class practice{class Cloud9Sample{
-    public static void main(String args[]){
-        System.out.println("Hello World in Cloud9Sample.");
-    }
+class practice {
+  public static void practice(String[] args){
+    System.out.println("Hello Would");
+  }
 }
