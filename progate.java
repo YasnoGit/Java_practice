@@ -49,3 +49,26 @@ public class progate {
     System.out.println((double)number1 / number2);
   }
 }
+
+// レッスン2
+public class progate {
+
+  public static void main(String []args) {
+    // 真偽値 boolean型 true false
+
+    // 比較演算子 x==y x!=y
+    System.out.println(true);
+    System.out.println(false);
+    System.out.println(6 + 2 == 5);
+    System.out.println(6 + 2 != 5);
+    boolean bool = 3 * 9 ==27;
+    System.out.println(bool);
+
+    // 大小記号 x<y x<=y x>y x>=y
+    System.out.println(true);
+    System.out.println(false);
+    System.out.println(8 < 5);
+    System.out.println(3 >= 2);
+
+  }
+}
