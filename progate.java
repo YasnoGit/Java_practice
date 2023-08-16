@@ -70,5 +70,30 @@ public class progate {
     System.out.println(8 < 5);
     System.out.println(3 >= 2);
 
+    // 論理演算子 && かつ、|| または、! 〜でない
+    System.out.println(8 < 5 && 3 >= 2);
+    System.out.println(8 < 5 || 3 >= 2);
+    System.out.println(!(8 < 5));
+
+    // 条件分岐
+    // if文
+    if (条件式){
+      処理;
+    }
+    int x = 10;
+    if (x == 10){
+    System.out.println("条件はtrue");
+    System.out.println("xは10です");
+    }
+
+    int x = 5;
+    if (x > 2){
+    System.out.println("xは2より大きい");
+    }
+
+    if (x > 8){
+    System.out.println("xは8より大きい");
+    }
+
   }
 }
