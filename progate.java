@@ -95,5 +95,23 @@ public class progate {
     System.out.println("xは8より大きい");
     }
 
+    // else文
+    int x = 40;
+    if (x < 30){
+    System.out.println("xは30より小さい");
+    } else {
+    System.out.println("xは30以上");
+    }
+
+    // else if
+    int number = 12;
+    if (number < 10) {
+      System.out.println("10より小さい");
+    } else if (number < 20){
+      System.out.println("10以上、20より小さい");
+    } else {
+      System.out.println("20以上");
+    }
+
   }
 }
