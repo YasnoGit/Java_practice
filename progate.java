@@ -113,5 +113,69 @@ public class progate {
       System.out.println("20以上");
     }
 
+    // switch文
+    int number = 12;
+    switch (number % 3){
+      case 0:
+        System.out.println("3で割り切れます");
+        break;
+      case 1:
+        System.out.println("3で割ると1余ります");
+        break;
+      case 2:
+        System.out.println("3で割ると2余ります");
+        break;
+    }
+    // default
+    int number = 13;
+    switch (number % 5){
+      case 0:
+        System.out.println("大吉です");
+        break;
+      case 1:
+        System.out.println("中吉です");
+        break;
+      case 4:
+        System.out.println("凶です");
+        break;
+      default:
+        System.out.println("吉です");
+        break;
+    }
+
+    // while文
+    while (条件){
+      繰り返す処理;
+    }
+
+    int number = 1;
+    while (numeber <= 10){
+      System.out.println("number");
+      number ++;
+    }
+
+    // for文
+    for(int i = 1; i <= 10; i ++){
+      System.out.println(i +"回目のループです");
+    }
+
+    System.out.println("===while文===");
+    int = 1;
+    while (i < 10){
+      if (i % 5 == 0){
+        break;
+      }
+      System.out.println(i);
+      i++;
+    }
+
+    System.out.println("===while文===");
+    for (int j = 1; j < 10; j++){
+      if (j % 3 == 0){
+        continue;
+      }
+      System.out.println(j);
+    }
+
   }
 }
