@@ -190,6 +190,20 @@ public class progate {
     System.out.println(languages[1]);
     languages[1] = "Java";
     System.out.println(languages[1]);
+    // 繰り返し
+    String[] names = {"にゃんじゃわんこ", "ひつじ仙人", "ベイビーわんこ"};
+    for(int i = 0; i <names.length; i++){
+      System.out.println("私の名前は" + names[i]) + "です");
+    }
+    // for文(配列)
+    for (データ型 変数型: 配列名){
+      繰り返す処理;
+    }
+
+    String[] names = {"にゃんじゃわんこ", "ひつじ仙人", "ベイビーわんこ"};
+    for(String name: names){
+      System.out.println("私の名前は" + name + "です");
+    }
 
   }
 }
