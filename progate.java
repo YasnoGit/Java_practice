@@ -177,5 +177,7 @@ public class progate {
       System.out.println(j);
     }
 
+    // 配列
+
   }
 }
