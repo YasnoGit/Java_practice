@@ -178,6 +178,18 @@ public class progate {
     }
 
     // 配列
+    // {}に,で区切りながら値
+    // 前から順に0,1,2...
+    int[] number = {5, 13, 29} ・・・数値要素配列
+    String[] names = {"john", "Kate", "Bob"}・・・文字列要素配列
+
+    String[] names = {"にゃんじゃわんこ", "ひつじ仙人", "ベイビーわんこ"};
+    System.out.println(names[0]);
+    // 上書き
+    String[] languages = {"Ruby", "PHP", "Python"};
+    System.out.println(languages[1]);
+    languages[1] = "Java";
+    System.out.println(languages[1]);
 
   }
 }
