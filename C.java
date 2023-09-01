@@ -1,3 +1,18 @@
+// 文字列は""で囲む
+
+// ()の中身を出力せよ、という命令
+// 文の終わりはセミコロン
+System.out.println();
+
+// 構造
+class Main { //クラス部分
+  public static void main(String []args) { //メソッド部分
+    ここからコード //処理部分
+  }
+}
+
+
+
 public class C {
 
   public static void main(String []args) {
