@@ -1,4 +1,5 @@
 // 文字列は""で囲む
+// 数値は囲まない
 
 // ()の中身を出力せよ、という命令
 // 文の終わりはセミコロン
@@ -11,8 +12,6 @@ class Main { //クラス部分
   }
 }
 
-
-
 public class C {
 
   public static void main(String []args) {
@@ -23,15 +22,16 @@ public class C {
     // 値の代入
     // number = 3;
 
-    int number;
-    number = 10;
+    int number; //定義
+    number = 10; //代入
     System.out.println(number);
 
     String name;
     name = "Sato";
     System.out.println(name);
 
-    String lastName = "Sato";
+    String lastName = "Sato"; //定義と代入の同時処理＝変数初期化
+    lastName = "ito"; //データ型をつけずにデータを上書きできる
 
     double number = 5.28;
     System.out.println(number);
