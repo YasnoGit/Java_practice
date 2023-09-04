@@ -99,6 +99,42 @@ public class JavaSample {
 	    for(String name: nam){
 	      System.out.println("私の名前は" + name + "です");
 	    }
+	    
+	  //1〜10の数字の偶数のみを大きい順に上から縦に並ぶように表示させる
+    //初期値10(多い順)
+		int i = 10;
+        //1になった時止めるwhile文
+		while ( 1 <= i ) {
+			// 偶数の判定(2で割ってあまりが0)
+			if ( 0 == ( i % 2 ) )
+				System.out.println( i );
+			// iに1を引いていく
+			i--; 
+	    }
+		
+    //1〜10までの偶数が何個あるのか、偶数の合計は幾つになるかを表示させる
+		int sum = 0;
+		int cnt = 0;
+		for (int j = 1; j <= 10; j++) {
+			if (j % 2 == 0) {
+				sum += j;
+				cnt++;
+			}
+		}
+		System.out.println("合計" + sum);
+		System.out.println("個数" + cnt);
+		
+    //1〜10までの整数をカンマ区切りで横並びで表示（10にはカンマをつけない）させる
+		int[] number = {1,2,3,4,5,6,7,8,9,10};
+		for (int k = 0; k < number.length; k++) {
+			if (number[k] != 10) 
+				System.out.print(",");
+		}
+		System.out.print(number[k]);
+		
+    //要素数20の配列を宣言し、要素に0から5ずつ加算して代入させる。[0]~[10]の値の奇数のみカンマ区切りで、[11]~[19]の値は偶数をカンマ区切りで表示させる
+    
+    
 	}
 
 }
